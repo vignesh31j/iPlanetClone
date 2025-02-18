@@ -1,0 +1,12 @@
+<h1>iPads</h1>
+<div id="container">
+    <div id="card" *ngFor ="let ipad of ipads">
+        <img src={{ipad.img}} alt="">
+        <p>{{ipad.name}}</p>
+        <p class="price">₹{{ipad.price}} <span>₹{{ipad.ogprice}}</span> </p>
+        <div class="btns">
+            <button id="cartbtn" onclick="addCart()">add to cart</button>
+            <button>buy now</button>
+        </div>
+    </div>
+</div>

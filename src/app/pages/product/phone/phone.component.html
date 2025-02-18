@@ -1,0 +1,12 @@
+<h1>iPhones</h1>
+<div id="container">
+    <div id="card" *ngFor ="let phone of phones">
+        <img src={{phone.img}} alt="">
+        <p>{{phone.name}}</p>
+        <p class="price">₹{{phone.price}} <span>₹{{phone.ogprice}}</span> </p>
+        <div class="btns">
+            <button id="cartbtn" onclick="addCart()">add to cart</button>
+            <button>buy now</button>
+        </div>
+    </div>
+</div>

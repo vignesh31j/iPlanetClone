@@ -1,0 +1,12 @@
+<h1>Apple Watches</h1>
+<div id="container">
+    <div id="card" *ngFor ="let watch of watches">
+        <img src={{watch.img}} alt="">
+        <p>{{watch.name}}</p>
+        <p class="price">₹{{watch.price}} <span>₹{{watch.ogprice}}</span> </p>
+        <div class="btns">
+            <button id="cartbtn" onclick="addCart()">add to cart</button>
+            <button>buy now</button>
+        </div>
+    </div>
+</div>

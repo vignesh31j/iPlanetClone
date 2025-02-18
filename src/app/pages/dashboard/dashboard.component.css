@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+#card {
+    width: fit-content;
+    padding: 20px;
+    justify-items: center;
+    border-radius: 15px;
+}
+
+#card:hover {
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 0px 10px;
+}
+
+img {
+    width: 250px;
+    height: auto;
+}
+
+#container {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 50px;
+}
+
+.price {
+    color: blue;
+    font-weight: 900;
+}
+
+span {
+    text-decoration: line-through;
+    color: black;
+    font-weight: 600;
+}
+
+.btns {
+    display: flex;
+    column-gap: 15px;
+}
+
+.btns button {
+    border-radius: 8px;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border: 0;
+    cursor: pointer;
+}
+
+.btns button:hover {
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 0px 10px rgba(0, 0, 255, 0.765);
+}

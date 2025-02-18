@@ -1,0 +1,11 @@
+footer {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+
+    font-weight: 900;
+    font-size: 18px;
+
+    background-color: black;
+    color: white;    
+}

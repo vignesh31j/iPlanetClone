@@ -1,0 +1,12 @@
+<h1>Musics</h1>
+<div id="container">
+    <div id="card" *ngFor ="let music of musics">
+        <img src={{music.img}} alt="">
+        <p>{{music.name}}</p>
+        <p class="price">₹{{music.price}} <span>₹{{music.ogprice}}</span> </p>
+        <div class="btns">
+            <button id="cartbtn" onclick="addCart()">add to cart</button>
+            <button>buy now</button>
+        </div>
+    </div>
+</div>

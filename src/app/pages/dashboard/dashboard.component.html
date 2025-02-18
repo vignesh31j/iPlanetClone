@@ -1,0 +1,11 @@
+<h1>Welcome to iPlanet</h1>
+
+<div id="container">
+    <div id="card" *ngFor ="let product of products">
+        <img [src]="product.img" alt="">
+        <p>{{product.name}}</p>
+        <div class="btns">
+            <button [routerLink]= "product.linkUrl" >View Collections</button>
+        </div>
+    </div>
+</div>

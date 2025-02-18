@@ -1,0 +1,10 @@
+<h1>Accessories</h1>
+<div id="container">
+    <div id="card" *ngFor ="let accessorie of accessories">
+        <img src={{accessorie.img}} alt="">
+        <p>{{accessorie.name}}</p>
+        <div class="btns">
+            <button>View Collection</button>
+        </div>
+    </div>
+</div>
