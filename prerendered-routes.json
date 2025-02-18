@@ -1,0 +1,16 @@
+{
+  "routes": {
+    "/iPlanetClone": {},
+    "/iPlanetClone/accessories": {},
+    "/iPlanetClone/dashboard": {},
+    "/iPlanetClone/home": {},
+    "/iPlanetClone/ipad": {},
+    "/iPlanetClone/login": {},
+    "/iPlanetClone/mac": {},
+    "/iPlanetClone/music": {},
+    "/iPlanetClone/phone": {},
+    "/iPlanetClone/profile": {},
+    "/iPlanetClone/register": {},
+    "/iPlanetClone/watch": {}
+  }
+}
